@@ -15,3 +15,16 @@
         6. Image tags.
         7. Table tags.
         8. Special tags.
+## Day 2: CSS fundamentals
+1. Inserting CSS:
+    1. External CSS.
+    2. Internal CSS.
+    3. Inline CSS.
+2. CSS Ruleset:
+    1. CSS declaration.
+    2. CSS declaration blocks.
+    3. CSS selector.
+    4. CSS Ruleset.
+3. CSS selectors:
+    1. Type selector. 
+    2. Attribute selector.

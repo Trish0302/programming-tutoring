@@ -1,0 +1,42 @@
+/* universal selector */
+* {
+    color: blue;
+}
+
+/* type selector */
+h1 {
+    color: red;
+}
+
+i {
+    color: brown;
+}
+
+/* attribute selector */
+a[href="https://vietcetera.com/en/4-mid-autumn-symbols-to-remind-us-of-harmony-and-hope"] {
+    color: cadetblue;
+}
+
+p[id="moon"] {
+    color: blue;
+}
+
+div[id="image-2-wrapper"] {
+    color: blue;
+}
+
+/* class selector */
+.section-text {
+    color: brown;
+}
+
+/* id selector */
+#important-text {
+    color: cadetblue;
+}
+
+/* grouping selectors */
+h2#mooncakes-heading,
+p.mooncake-paragraph {
+    color: coral;
+}
