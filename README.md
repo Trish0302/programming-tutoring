@@ -1,5 +1,5 @@
 # RESOURCES FOR PROGRAMING TUTOR 
-## Day 1: Basic definition and HTML fundamentals
+## I. Basic definition and HTML fundamentals
 1. Definition of HTML, CSS and Javascript.
 2. Code editor introduction. 
 3. Structure of HTML document:
@@ -15,7 +15,7 @@
         6. Image tags.
         7. Table tags.
         8. Special tags.
-## Day 2: CSS fundamentals
+## II. CSS fundamentals
 1. Inserting CSS:
     1. External CSS.
     2. Internal CSS.
@@ -28,3 +28,14 @@
 3. CSS selectors:
     1. Type selector. 
     2. Attribute selector.
+    3. Class selector.
+    4. Id selector.
+    5. Grouping selector.
+    6. Universal selector.
+    7. Combinators:
+        1. Definition.
+        2. Type of combination:
+            1. The descendant combinator.
+            2. The direct child combinator.
+            3. The general sibling combinator.
+            4. The adjacent sibling combinator.
