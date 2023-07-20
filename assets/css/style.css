@@ -1,0 +1,26 @@
+/* The direct child combinator */
+section#projects-section>span {
+    color: fuchsia;
+}
+
+/* The general sibling combinator */
+section#projects-section>div.project-item>div.image-wrapper~span {
+    color: green;
+}
+
+section#projects-section>div.project-item>p~span {
+    color: bisque;
+}
+
+/* The adjacent sibling combinator */
+section#projects-section>div.project-item>div.image-wrapper+span {
+    color: red;
+}
+
+section#projects-section>div.project-item>p+span {
+    color: blueviolet;
+}
+
+section#info-section>h1+span {
+    color: chocolate;
+}
