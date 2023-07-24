@@ -5,11 +5,26 @@
 
 /* type selector */
 h1 {
+    font-family: 'Poppins', sans-serif;
     color: red;
 }
 
-i {
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+h1+p {
     color: brown;
+    font-style: italic;
+}
+
+p.image-caption {
+    color: grey;
+    font-weight: 300;
 }
 
 /* attribute selector */
@@ -39,4 +54,8 @@ div[id="image-2-wrapper"] {
 h2#mooncakes-heading,
 p.mooncake-paragraph {
     color: coral;
+}
+
+table>tr>td {
+    font-style: italic;
 }
