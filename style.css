@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@700&display=swap');
+
+* {
+    line-height: 2rem;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    max-width: 1200px;
+    padding: 2.5rem 20rem;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section>h1 {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+section>span {
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+/* direct child combinator */
+section>h1~span {
+    color: rgb(117, 117, 117);
+}
+
+section>h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* descendant combinator */
+section p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.125rem;
+    margin-bottom: .75rem;
+    color: palevioletred;
+}
+
+/* general sibling combinator */
+section>p#text_1~p,
+section>p#text_2~p,
+section>p#text_3~p,
+section>p#text_4~p,
+section>p#text_4~span {
+    color: darkorange;
+}
+
+/* adjacent sibling combinator */
+section>p#text_1+p,
+section>p#text_2+p,
+section>p#text_3+p,
+section>p#text_4+p {
+    color: blueviolet;
+}
+
+section>span#in-text-textbox {
+    display: block;
+    background: #fafafa;
+    border: 1px solid #00773e;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 1rem;
+}
